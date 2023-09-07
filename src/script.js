@@ -13,7 +13,6 @@ async function loadJSON() {
 
     document.getElementById('numAttempts').innerHTML = "Attempts: " + attempts;
     chosenArtist = getRandomArtist();
-    console.log("Artist to guess: " + chosenArtist.name);
 }
 
 btnSearch.addEventListener('click', function() {
@@ -27,7 +26,8 @@ btnSearch.addEventListener('click', function() {
 });
 
 function searchForArtist(name) {
-    if (attempts >= 10 || name == '') {
+    if (attempts >= 10) {
+        alert("You lost, it was " + chosenArtist.name);
         return;
     }
 

@@ -133,5 +133,95 @@
         "gender": "Female",
         "genre": "Pop",
         "nationality": "us"
+    },
+    {
+        "name": "Justin Bieber",
+        "yearDebut": 2009,
+        "sizeGroup": 1,
+        "rank": 7,
+        "gender": "Male",
+        "genre": "Pop",
+        "nationality": "ca"
+    },
+    {
+        "name": "Alicia Keys",
+        "yearDebut": 2001,
+        "sizeGroup": 1,
+        "rank": 259,
+        "gender": "Female",
+        "genre": "R&B",
+        "nationality": "us"
+    },
+    {
+        "name": "Coldplay",
+        "yearDebut": 2000,
+        "sizeGroup": 4,
+        "rank": 14,
+        "gender": "Male",
+        "genre": "Rock",
+        "nationality": "uk"
+    },
+    {
+        "name": "Madonna",
+        "yearDebut": 1983,
+        "sizeGroup": 1,
+        "rank": 230,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "us"
+    },
+    {
+        "name": "U2",
+        "yearDebut": 1980,
+        "sizeGroup": 4,
+        "rank": 208,
+        "gender": "Male",
+        "genre": "Rock",
+        "nationality": "ie"
+    },
+    {
+        "name": "Whitney Houston",
+        "yearDebut": 1985,
+        "sizeGroup": 1,
+        "rank": 257,
+        "gender": "Female",
+        "genre": "R&B",
+        "nationality": "us"
+    },
+    {
+        "name": "Elton John",
+        "yearDebut": 1969,
+        "sizeGroup": 1,
+        "rank": 82,
+        "gender": "Male",
+        "genre": "Pop",
+        "nationality": "uk"
+    },
+    {
+        "name": "Bob Marley",
+        "yearDebut": 1963,
+        "sizeGroup": 1,
+        "rank": 133,
+        "gender": "Male",
+        "genre": "Reggae",
+        "nationality": "jm"
+    },
+    {
+        "name": "Michael Jackson",
+        "yearDebut": 1964,
+        "sizeGroup": 1,
+        "rank": 71,
+        "gender": "Male",
+        "genre": "Pop",
+        "nationality": "us"
+    },
+    {
+        "name": "Queen",
+        "yearDebut": 1973,
+        "sizeGroup": 4,
+        "rank": 32,
+        "gender": "Male",
+        "genre": "Rock",
+        "nationality": "uk"
     }
 ]
