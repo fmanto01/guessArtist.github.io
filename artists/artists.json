@@ -1,0 +1,22 @@
+{
+    "artists" : [
+        {
+            "name": "Drake",
+            "yearDebut": 2010,
+            "sizeGroup": 1,
+            "rank": 1,
+            "gender": "Male",
+            "genre": "Hip Hop",
+            "nationality": "Canada"
+        },
+        {
+            "name": "The Weeknd",
+            "yearDebut": 2011,
+            "sizeGroup": 1,
+            "rank": 1,
+            "gender": "Male",
+            "genre": "R&B",
+            "nationality": "Canada"
+        }
+    ]
+}
