@@ -52,5 +52,86 @@
         "gender": "Male",
         "genre": "Hip Hop",
         "nationality": "it"
+    },
+    {
+        "name": "Beyoncé",
+        "yearDebut": 1997,
+        "sizeGroup": 1,
+        "rank": 31,
+        "gender": "Female",
+        "genre": "R&B",
+        "nationality": "us"
+    },
+    {
+        "name": "Eminem",
+        "yearDebut": 1996,
+        "sizeGroup": 1,
+        "rank": 8,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Adele",
+        "yearDebut": 2008,
+        "sizeGroup": 1,
+        "rank": 41,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "uk"
+    },
+    {
+        "name": "Ed Sheeran",
+        "yearDebut": 2011,
+        "sizeGroup": 1,
+        "rank": 5,
+        "gender": "Male",
+        "genre": "Pop",
+        "nationality": "uk"
+    },
+    {
+        "name": "Jay-Z",
+        "yearDebut": 1996,
+        "sizeGroup": 1,
+        "rank": 134,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Rihanna",
+        "yearDebut": 2005,
+        "sizeGroup": 1,
+        "rank": 18,
+        "gender": "Female",
+        "genre": "R&B",
+        "nationality": "bb"
+    },
+    {
+        "name": "Lady Gaga",
+        "yearDebut": 2008,
+        "sizeGroup": 1,
+        "rank": 36,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "us"
+    },
+    {
+        "name": "Bruno Mars",
+        "yearDebut": 2010,
+        "sizeGroup": 1,
+        "rank": 25,
+        "gender": "Male",
+        "genre": "Pop",
+        "nationality": "us"
+    },
+    {
+        "name": "Ariana Grande",
+        "yearDebut": 2011,
+        "sizeGroup": 1,
+        "rank": 6,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "us"
     }
 ]
