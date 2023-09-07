@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Guess the artist</title>
 </head>
 <body>
-    <h1>Guess the artist</h1>
-    <h3>Search</h3>
-    <h3 id = "numAttempts" name = "numAttempts">Attemps:</h3>
-    <textarea id = "artistName" name = "artistName" rows = "1" cols = "32" required></textarea>
-    <button id = "btnSearch" name = "btnSearch">Search</button>
-    <div>
-        <div id = "sample" name = "sample">
+    <div class="container">
+        <h1 class="mt-5">Guess the artist</h1>
+        <div class="mt-4">
+            <h3 id="numAttempts">Attempts:</h3>
+            <div class="input-group">
+                <input type="text" class="form-control" id="artistName" placeholder="Enter artist name" required>
+                <div class="input-group-append">
+                    <button class="btn btn-primary" id="btnSearch">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4" id="artistContainer">
         </div>
     </div>
+
     <script src="src/script.js"></script>
 </body>
 </html>

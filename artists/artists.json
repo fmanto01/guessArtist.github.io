@@ -6,7 +6,7 @@
         "rank": 1,
         "gender": "Male",
         "genre": "Hip Hop",
-        "nationality": "Canada"
+        "nationality": "ca"
     },
     {
         "name": "The Weeknd",
@@ -15,7 +15,7 @@
         "rank": 4,
         "gender": "Male",
         "genre": "R&B",
-        "nationality": "Canada"
+        "nationality": "ca"
     },
     {
         "name": "Slipknot",
@@ -24,7 +24,7 @@
         "rank": 218,
         "gender": "Male",
         "genre": "Metal",
-        "nationality": "USA"
+        "nationality": "us"
     },
     {
         "name": "Taylor Swift",
@@ -33,7 +33,7 @@
         "rank": 3,
         "gender": "Female",
         "genre": "Pop",
-        "nationality": "USA"
+        "nationality": "us"
     },
     {
         "name": "Kanye West",
@@ -42,6 +42,15 @@
         "rank": 11,
         "gender": "Male",
         "genre": "Hip Hop",
-        "nationality": "USA"
+        "nationality": "us"
+    },
+    {
+        "name": "Sfera Ebbasta",
+        "yearDebut": 2015,
+        "sizeGroup": 1,
+        "rank": 475,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "it"
     }
 ]

@@ -2,6 +2,8 @@ let artists;
 const btnSearch = document.getElementById('btnSearch');
 let attempts = 0;
 let chosenArtist;
+let artistContainer = document.getElementById('artistContainer');
+
 window.onload = loadJSON;
 
 async function loadJSON() {
@@ -17,43 +19,54 @@ async function loadJSON() {
 btnSearch.addEventListener('click', function() {
     let searchedArtist = document.getElementById('artistName').value;
 
-    if(searchedArtist != '')
+    if (searchedArtist != '') {
         searchForArtist(searchedArtist);
-    else
+    } else {
         alert("You need to insert an artist");
+    }
 });
 
 function searchForArtist(name) {
-
-    if(attempts >= 10)
+    if (attempts >= 10 || name == '') {
         return;
-
-    for(let i = 0; i < artists.length; i++) {
-        if(name === artists[i].name)
-            printArtistData(artists[i]);
     }
 
-    if(chosenArtist.name === name)
+    for (let i = 0; i < artists.length; i++) {
+        if (name === artists[i].name) {
+            attempts++;
+            document.getElementById('numAttempts').innerHTML = "Attempts: " + attempts;
+
+            printArtistData(artists[i]);
+        }
+    }
+
+    if (chosenArtist.name === name) {
         alert("You won");
+    }
 
-    // clear search bar
     document.getElementById('artistName').value = '';
-
-    // increase number of attempts
-    attempts++;
-    document.getElementById('numAttempts').innerHTML = "Attempts: " + attempts;
 }
 
 function printArtistData(artist) {
-    let output = document.getElementById('sample');
-    let newArtist = '<br> <b>' + artist.name + '</b> <br>' +
-                    "Year of debut: " + artist.yearDebut + getSimilarity(artist.yearDebut, "yearDebut") + '<br>' +
-                    "Group size: " + artist.sizeGroup + getSimilarity(artist.sizeGroup, "sizeGroup") + '<br>' + 
-                    "Rank: " + artist.rank + getSimilarity(artist.rank, "rank") + '<br>' +
-                    "Gender: " + artist.gender + getSimilarity(artist.gender, "gender") + '<br>' +
-                    "Genre: " + artist.genre + getSimilarity(artist.genre, "genre") + '<br>';
-    
-    output.innerHTML = newArtist + output.innerHTML;
+    let artistCard = document.createElement('div');
+    artistCard.classList.add('col-md-4', 'mb-4');
+
+    let artistCardInner = `
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">${artist.name}</h5>
+                <p class="card-text">Year of debut: ${artist.yearDebut}${getSimilarity(artist.yearDebut, "yearDebut")}</p>
+                <p class="card-text">Group size: ${artist.sizeGroup}${getSimilarity(artist.sizeGroup, "sizeGroup")}</p>
+                <p class="card-text">Rank: ${artist.rank}${getSimilarity(artist.rank, "rank")}</p>
+                <p class="card-text">Gender: ${artist.gender}${getSimilarity(artist.gender, "gender")}</p>
+                <p class="card-text">Genre: ${artist.genre}${getSimilarity(artist.genre, "genre")}</p>
+                <p class="card-text">Nationality: ${getFlag(artist.nationality)}${getSimilarity(artist.nationality, "nationality")}</p>
+            </div>
+        </div>
+    `;
+
+    artistCard.innerHTML = artistCardInner;
+    artistContainer.appendChild(artistCard);
 }
 
 function getRandomArtist() {
@@ -72,9 +85,9 @@ function getSimilarity(data, typeData) {
             similarity = " 🟢 ";
         else if (data >= chosenArtist.yearDebut - 5 && data <= chosenArtist.yearDebut + 5)
             similarity = " 🟡 ";
-    }    
+    }
 
-    if(typeData === "sizeGroup" && data === chosenArtist.sizeGroup)
+    if (typeData === "sizeGroup" && data === chosenArtist.sizeGroup)
         similarity = " 🟢 ";
 
     if (typeData === "rank") {
@@ -82,16 +95,21 @@ function getSimilarity(data, typeData) {
             similarity = " 🟢 ";
         else if (data >= chosenArtist.rank - 50 && data <= chosenArtist.rank + 50)
             similarity = " 🟡 ";
-    }    
+    }
 
-    if(typeData === "gender" && data === chosenArtist.gender)
+    if (typeData === "gender" && data === chosenArtist.gender)
         similarity = " 🟢 ";
 
-    if(typeData === "genre" && data === chosenArtist.genre)
+    if (typeData === "genre" && data === chosenArtist.genre)
         similarity = " 🟢 ";
 
-    if(typeData === "nationality" && data === chosenArtist.nationality)
+    if (typeData === "nationality" && data === chosenArtist.nationality)
         similarity = " 🟢 ";
 
     return similarity;
+}
+
+function getFlag(nationality) {
+    let flag = '<i class="flag-icon flag-icon-' + nationality + '"></i>';
+    return flag;
 }
