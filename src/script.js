@@ -1,4 +1,4 @@
-fetch("../artists/artists.json")
+fetch("./artists/artists.json")
         .then((res) => {
         return res.json();
     })
