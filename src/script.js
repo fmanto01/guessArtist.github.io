@@ -9,6 +9,6 @@ async function loadJSON() {
 }
 
 btnSearch.addEventListener('click', function() {
-    let searchedArtist = document.getElementById('artistName').innerText;
+    let searchedArtist = document.getElementById('artistName').value;
     console.log("You searched for: " + searchedArtist);
 });
