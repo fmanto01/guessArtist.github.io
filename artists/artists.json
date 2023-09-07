@@ -1,5 +1,4 @@
-{
-    "artists" : [
+[
         {
             "name": "Drake",
             "yearDebut": 2010,
@@ -18,5 +17,4 @@
             "genre": "R&B",
             "nationality": "Canada"
         }
-    ]
-}
+]
