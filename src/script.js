@@ -1,4 +1,4 @@
-fetch('./artists/artists.json')
+fetch('../artists/artists.json')
   .then(response => response.json())
   .then(data => {
     // Ora il contenuto del file JSON è stato estratto e è disponibile nella variabile 'data'.
