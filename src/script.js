@@ -9,14 +9,41 @@ window.onload = loadJSON;
 async function loadJSON() {
     const response = await fetch('./artists/artists.json');
     artists = await response.json();
-    console.log(artists);
+    console.log(artists); 
 
     document.getElementById('numAttempts').innerHTML = "Attempts: " + attempts;
     chosenArtist = getRandomArtist();
+    console.log("Artist to guess: " + chosenArtist.name);
 }
+
+const searchInput = document.getElementById("artistName");
+const suggestionList = document.getElementById("suggestionList");
+
+let suggerimentiMostrati = 0;
+
+searchInput.addEventListener("input", function () {
+    const userInput = searchInput.value.toLowerCase();
+    suggestionList.innerHTML = "";
+    suggerimentiMostrati = 0;
+
+    const suggerimenti = artists.filter(artist => {
+        if (suggerimentiMostrati < 5 && artist.name.toLowerCase().includes(userInput)) {
+            suggerimentiMostrati++;
+            return true;
+        }
+        return false;
+    });
+
+    suggerimenti.forEach(suggerimento => {
+        const suggerimentoElement = document.createElement("div");
+        suggerimentoElement.textContent = suggerimento.name;
+        suggestionList.appendChild(suggerimentoElement);
+    });
+});
 
 btnSearch.addEventListener('click', function() {
     let searchedArtist = document.getElementById('artistName').value;
+    searchedArtist = searchedArtist.trim();
 
     if (searchedArtist != '') {
         searchForArtist(searchedArtist);
@@ -85,6 +112,10 @@ function getSimilarity(data, typeData) {
             similarity = " 🟢 ";
         else if (data >= chosenArtist.yearDebut - 5 && data <= chosenArtist.yearDebut + 5)
             similarity = " 🟡 ";
+        if(data > chosenArtist.yearDebut)
+            similarity += " ⬇️ ";
+        else if (data < chosenArtist.yearDebut)
+            similarity += " ⬆️ ";
     }
 
     if (typeData === "sizeGroup" && data === chosenArtist.sizeGroup)
@@ -95,6 +126,10 @@ function getSimilarity(data, typeData) {
             similarity = " 🟢 ";
         else if (data >= chosenArtist.rank - 50 && data <= chosenArtist.rank + 50)
             similarity = " 🟡 ";
+        if(data > chosenArtist.rank)
+            similarity += " ⬆️ ";
+        else if (data < chosenArtist.rank)
+            similarity += " ⬇️ ";
     }
 
     if (typeData === "gender" && data === chosenArtist.gender)

@@ -9,22 +9,13 @@
         "nationality": "ca"
     },
     {
-        "name": "The Weeknd",
-        "yearDebut": 2011,
+        "name": "Bad Bunny",
+        "yearDebut": 2016,
         "sizeGroup": 1,
-        "rank": 4,
+        "rank": 2,
         "gender": "Male",
-        "genre": "R&B",
-        "nationality": "ca"
-    },
-    {
-        "name": "Slipknot",
-        "yearDebut": 1999,
-        "sizeGroup": 9,
-        "rank": 218,
-        "gender": "Male",
-        "genre": "Metal",
-        "nationality": "us"
+        "genre": "Reggaeton",
+        "nationality": "pr"
     },
     {
         "name": "Taylor Swift",
@@ -36,98 +27,26 @@
         "nationality": "us"
     },
     {
-        "name": "Kanye West",
-        "yearDebut": 2004,
+        "name": "The Weeknd",
+        "yearDebut": 2010,
         "sizeGroup": 1,
-        "rank": 11,
+        "rank": 4,
         "gender": "Male",
-        "genre": "Hip Hop",
-        "nationality": "us"
-    },
-    {
-        "name": "Sfera Ebbasta",
-        "yearDebut": 2015,
-        "sizeGroup": 1,
-        "rank": 475,
-        "gender": "Male",
-        "genre": "Hip Hop",
-        "nationality": "it"
-    },
-    {
-        "name": "Beyoncé",
-        "yearDebut": 1997,
-        "sizeGroup": 1,
-        "rank": 31,
-        "gender": "Female",
         "genre": "R&B",
-        "nationality": "us"
-    },
-    {
-        "name": "Eminem",
-        "yearDebut": 1996,
-        "sizeGroup": 1,
-        "rank": 8,
-        "gender": "Male",
-        "genre": "Hip Hop",
-        "nationality": "us"
-    },
-    {
-        "name": "Adele",
-        "yearDebut": 2008,
-        "sizeGroup": 1,
-        "rank": 41,
-        "gender": "Female",
-        "genre": "Pop",
-        "nationality": "uk"
+        "nationality": "ca"
     },
     {
         "name": "Ed Sheeran",
-        "yearDebut": 2011,
+        "yearDebut": 2005,
         "sizeGroup": 1,
         "rank": 5,
         "gender": "Male",
         "genre": "Pop",
-        "nationality": "uk"
-    },
-    {
-        "name": "Jay-Z",
-        "yearDebut": 1996,
-        "sizeGroup": 1,
-        "rank": 134,
-        "gender": "Male",
-        "genre": "Hip Hop",
-        "nationality": "us"
-    },
-    {
-        "name": "Rihanna",
-        "yearDebut": 2005,
-        "sizeGroup": 1,
-        "rank": 18,
-        "gender": "Female",
-        "genre": "R&B",
-        "nationality": "bb"
-    },
-    {
-        "name": "Lady Gaga",
-        "yearDebut": 2008,
-        "sizeGroup": 1,
-        "rank": 36,
-        "gender": "Female",
-        "genre": "Pop",
-        "nationality": "us"
-    },
-    {
-        "name": "Bruno Mars",
-        "yearDebut": 2010,
-        "sizeGroup": 1,
-        "rank": 25,
-        "gender": "Male",
-        "genre": "Pop",
-        "nationality": "us"
+        "nationality": "gb"
     },
     {
         "name": "Ariana Grande",
-        "yearDebut": 2011,
+        "yearDebut": 2008,
         "sizeGroup": 1,
         "rank": 6,
         "gender": "Female",
@@ -144,67 +63,571 @@
         "nationality": "ca"
     },
     {
-        "name": "Alicia Keys",
-        "yearDebut": 2001,
+        "name": "Eminem",
+        "yearDebut": 1996,
         "sizeGroup": 1,
-        "rank": 259,
+        "rank": 8,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "BTS",
+        "yearDebut": 2013,
+        "sizeGroup": 7,
+        "rank": 9,
+        "gender": "Male",
+        "genre": "K-Pop",
+        "nationality": "kr"
+    },
+    {
+        "name": "Post Malone",
+        "yearDebut": 2015,
+        "sizeGroup": 1,
+        "rank": 10,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Kanye West",
+        "yearDebut": 2004,
+        "sizeGroup": 1,
+        "rank": 11,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "J Balvin",
+        "yearDebut": 2004,
+        "sizeGroup": 1,
+        "rank": 12,
+        "gender": "Male",
+        "genre": "Reggaeton",
+        "nationality": "co"
+    },
+    {
+        "name": "Billie Eilish",
+        "yearDebut": 2015,
+        "sizeGroup": 1,
+        "rank": 13,
         "gender": "Female",
-        "genre": "R&B",
+        "genre": "Pop",
         "nationality": "us"
     },
     {
         "name": "Coldplay",
-        "yearDebut": 2000,
+        "yearDebut": 1996,
         "sizeGroup": 4,
         "rank": 14,
         "gender": "Male",
         "genre": "Rock",
-        "nationality": "uk"
+        "nationality": "gb"
     },
     {
-        "name": "Madonna",
-        "yearDebut": 1983,
+        "name": "Juice WRLD",
+        "yearDebut": 2015,
         "sizeGroup": 1,
-        "rank": 230,
+        "rank": 15,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Dua Lipa",
+        "yearDebut": 2015,
+        "sizeGroup": 1,
+        "rank": 16,
         "gender": "Female",
+        "genre": "Pop",
+        "nationality": "gb"
+    },
+    {
+        "name": "Imagine Dragons",
+        "yearDebut": 2008,
+        "sizeGroup": 4,
+        "rank": 17,
+        "gender": "Male",
+        "genre": "Rock",
+        "nationality": "us"
+    },
+    {
+        "name": "Rihanna",
+        "yearDebut": 2005,
+        "sizeGroup": 1,
+        "rank": 18,
+        "gender": "Female",
+        "genre": "R&B",
+        "nationality": "bb"
+    },
+    {
+        "name": "Travis Scott",
+        "yearDebut": 2008,
+        "sizeGroup": 1,
+        "rank": 19,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "XXXTENTACION",
+        "yearDebut": 2014,
+        "sizeGroup": 1,
+        "rank": 20,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Ozuna",
+        "yearDebut": 2012,
+        "sizeGroup": 1,
+        "rank": 21,
+        "gender": "Male",
+        "genre": "Reggaeton",
+        "nationality": "pr"
+    },
+    {
+        "name": "David Guetta",
+        "yearDebut": 1990,
+        "sizeGroup": 1,
+        "rank": 22,
+        "gender": "Male",
+        "genre": "Electronic",
+        "nationality": "fr"
+    },
+    {
+        "name": "Khalid",
+        "yearDebut": 2015,
+        "sizeGroup": 1,
+        "rank": 23,
+        "gender": "Male",
+        "genre": "R&B",
+        "nationality": "us"
+    },
+    {
+        "name": "Maroon 5",
+        "yearDebut": 2001,
+        "sizeGroup": 7,
+        "rank": 24,
+        "gender": "Mixed",
         "genre": "Pop",
         "nationality": "us"
     },
     {
-        "name": "U2",
-        "yearDebut": 1980,
-        "sizeGroup": 4,
-        "rank": 208,
+        "name": "Kendrick Lamar",
+        "yearDebut": 2003,
+        "sizeGroup": 1,
+        "rank": 25,
         "gender": "Male",
-        "genre": "Rock",
-        "nationality": "ie"
+        "genre": "Hip Hop",
+        "nationality": "us"
     },
     {
-        "name": "Whitney Houston",
-        "yearDebut": 1985,
+        "name": "Shawn Mendes",
+        "yearDebut": 2013,
         "sizeGroup": 1,
-        "rank": 257,
+        "rank": 26,
+        "gender": "Male",
+        "genre": "Pop",
+        "nationality": "ca"
+    },
+    {
+        "name": "Bruno Mars",
+        "yearDebut": 2010,
+        "sizeGroup": 1,
+        "rank": 27,
+        "gender": "Male",
+        "genre": "Pop",
+        "nationality": "us"
+    },
+    {
+        "name": "Sam Smith",
+        "yearDebut": 2012,
+        "sizeGroup": 1,
+        "rank": 28,
+        "gender": "Male",
+        "genre": "Pop",
+        "nationality": "gb"
+    },
+    {
+        "name": "Calvin Harris",
+        "yearDebut": 2007,
+        "sizeGroup": 1,
+        "rank": 29,
+        "gender": "Male",
+        "genre": "Electronic",
+        "nationality": "gb"
+    },
+    {
+        "name": "Beyoncé",
+        "yearDebut": 1997,
+        "sizeGroup": 4,
+        "rank": 30,
         "gender": "Female",
         "genre": "R&B",
         "nationality": "us"
     },
     {
-        "name": "Elton John",
-        "yearDebut": 1969,
-        "sizeGroup": 1,
-        "rank": 82,
+        "name": "Queen",
+        "yearDebut": 1971,
+        "sizeGroup": 4,
+        "rank": 31,
         "gender": "Male",
-        "genre": "Pop",
-        "nationality": "uk"
+        "genre": "Rock",
+        "nationality": "gb"
     },
     {
-        "name": "Bob Marley",
-        "yearDebut": 1963,
+        "name": "Daddy Yankee",
+        "yearDebut": 1995,
         "sizeGroup": 1,
-        "rank": 133,
+        "rank": 32,
         "gender": "Male",
-        "genre": "Reggae",
-        "nationality": "jm"
+        "genre": "Reggaeton",
+        "nationality": "pr"
+    },
+    {
+        "name": "Harry Styles",
+        "yearDebut": 2010,
+        "sizeGroup": 1,
+        "rank": 33,
+        "gender": "Male",
+        "genre": "Pop",
+        "nationality": "gb"
+    },
+    {
+        "name": "Future",
+        "yearDebut": 2010,
+        "sizeGroup": 1,
+        "rank": 34,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "One Direction",
+        "yearDebut": 2010,
+        "sizeGroup": 5,
+        "rank": 35,
+        "gender": "Male",
+        "genre": "Pop",
+        "nationality": "gb"
+    },
+    {
+        "name": "Lady Gaga",
+        "yearDebut": 2008,
+        "sizeGroup": 1,
+        "rank": 36,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "us"
+    },
+    {
+        "name": "Chris Brown",
+        "yearDebut": 2005,
+        "sizeGroup": 1,
+        "rank": 37,
+        "gender": "Male",
+        "genre": "R&B",
+        "nationality": "us"
+    },
+    {
+        "name": "J. Cole",
+        "yearDebut": 2007,
+        "sizeGroup": 1,
+        "rank": 38,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Lana Del Rey",
+        "yearDebut": 2005,
+        "sizeGroup": 1,
+        "rank": 39,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "us"
+    },
+    {
+        "name": "Nicki Minaj",
+        "yearDebut": 2004,
+        "sizeGroup": 1,
+        "rank": 40,
+        "gender": "Female",
+        "genre": "Hip Hop",
+        "nationality": "tt"
+    },
+    {
+        "name": "Adele",
+        "yearDebut": 2008,
+        "sizeGroup": 1,
+        "rank": 41,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "gb"
+    },
+    {
+        "name": "Anuel AA",
+        "yearDebut": 2011,
+        "sizeGroup": 1,
+        "rank": 42,
+        "gender": "Male",
+        "genre": "Reggaeton",
+        "nationality": "pr"
+    },
+    {
+        "name": "The Chainsmokers",
+        "yearDebut": 2012,
+        "sizeGroup": 2,
+        "rank": 43,
+        "gender": "Male",
+        "genre": "Electronic",
+        "nationality": "us"
+    },
+    {
+        "name": "KAROL G",
+        "yearDebut": 2010,
+        "sizeGroup": 1,
+        "rank": 44,
+        "gender": "Female",
+        "genre": "Reggaeton",
+        "nationality": "co"
+    },
+    {
+        "name": "Rauw Alejandro",
+        "yearDebut": 2011,
+        "sizeGroup": 1,
+        "rank": 45,
+        "gender": "Male",
+        "genre": "Reggaeton",
+        "nationality": "pr"
+    },
+    {
+        "name": "Selena Gomez",
+        "yearDebut": 2002,
+        "sizeGroup": 1,
+        "rank": 46,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "us"
+    },
+    {
+        "name": "The Beatles",
+        "yearDebut": 1960,
+        "sizeGroup": 4,
+        "rank": 47,
+        "gender": "Male",
+        "genre": "Rock",
+        "nationality": "gb"
+    },
+    {
+        "name": "Shakira",
+        "yearDebut": 1990,
+        "sizeGroup": 1,
+        "rank": 48,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "co"
+    },
+    {
+        "name": "Halsey",
+        "yearDebut": 2014,
+        "sizeGroup": 1,
+        "rank": 49,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "us"
+    },
+    {
+        "name": "Linkin Park",
+        "yearDebut": 1996,
+        "sizeGroup": 6,
+        "rank": 50,
+        "gender": "Male",
+        "genre": "Rock",
+        "nationality": "us"
+    },
+    {
+        "name": "Lil Uzi Vert",
+        "yearDebut": 2010,
+        "sizeGroup": 1,
+        "rank": 51,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Sia",
+        "yearDebut": 1997,
+        "sizeGroup": 1,
+        "rank": 52,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "au"
+    },
+    {
+        "name": "Arctic Monkeys",
+        "yearDebut": 2002,
+        "sizeGroup": 4,
+        "rank": 53,
+        "gender": "Male",
+        "genre": "Rock",
+        "nationality": "gb"
+    },
+    {
+        "name": "Maluma",
+        "yearDebut": 2010,
+        "sizeGroup": 1,
+        "rank": 54,
+        "gender": "Male",
+        "genre": "Reggaeton",
+        "nationality": "co"
+    },
+    {
+        "name": "Marshmello",
+        "yearDebut": 2015,
+        "sizeGroup": 1,
+        "rank": 55,
+        "gender": "Male",
+        "genre": "Electronic",
+        "nationality": "us"
+    },
+    {
+        "name": "Katy Perry",
+        "yearDebut": 2001,
+        "sizeGroup": 1,
+        "rank": 56,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "us"
+    },
+    {
+        "name": "Doja Cat",
+        "yearDebut": 2013,
+        "sizeGroup": 1,
+        "rank": 57,
+        "gender": "Female",
+        "genre": "R&B",
+        "nationality": "us"
+    },
+    {
+        "name": "Twenty One Pilots",
+        "yearDebut": 2009,
+        "sizeGroup": 2,
+        "rank": 58,
+        "gender": "Male",
+        "genre": "Rock",
+        "nationality": "us"
+    },
+    {
+        "name": "Avicii",
+        "yearDebut": 2006,
+        "sizeGroup": 1,
+        "rank": 59,
+        "gender": "Male",
+        "genre": "Electronic",
+        "nationality": "se"
+    },
+    {
+        "name": "Miley Cyrus",
+        "yearDebut": 2006,
+        "sizeGroup": 1,
+        "rank": 60,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "us"
+    },
+    {
+        "name": "SZA",
+        "yearDebut": 2012,
+        "sizeGroup": 1,
+        "rank": 61,
+        "gender": "Female",
+        "genre": "R&B",
+        "nationality": "us"
+    },
+    {
+        "name": "Camila Cabello",
+        "yearDebut": 2012,
+        "sizeGroup": 1,
+        "rank": 62,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "us"
+    },
+    {
+        "name": "Kygo",
+        "yearDebut": 2013,
+        "sizeGroup": 1,
+        "rank": 63,
+        "gender": "Male",
+        "genre": "Electronic",
+        "nationality": "no"
+    },
+    {
+        "name": "Farruko",
+        "yearDebut": 2005,
+        "sizeGroup": 1,
+        "rank": 64,
+        "gender": "Male",
+        "genre": "Reggaeton",
+        "nationality": "pr"
+    },
+    {
+        "name": "21 Savage",
+        "yearDebut": 2014,
+        "sizeGroup": 1,
+        "rank": 65,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "gb"
+    },
+    {
+        "name": "Metro Boomin",
+        "yearDebut": 2011,
+        "sizeGroup": 1,
+        "rank": 66,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Red Hot Chili Peppers",
+        "yearDebut": 1983,
+        "sizeGroup": 4,
+        "rank": 67,
+        "gender": "Male",
+        "genre": "Rock",
+        "nationality": "us"
+    },
+    {
+        "name": "OneRepublic",
+        "yearDebut": 2002,
+        "sizeGroup": 2,
+        "rank": 68,
+        "gender": "Male",
+        "genre": "Pop",
+        "nationality": "us"
+    },
+    {
+        "name": "Lil Baby",
+        "yearDebut": 2017,
+        "sizeGroup": 1,
+        "rank": 69,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Olivia Rodrigo",
+        "yearDebut": 2020,
+        "sizeGroup": 1,
+        "rank": 70,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "us"
     },
     {
         "name": "Michael Jackson",
@@ -216,12 +639,264 @@
         "nationality": "us"
     },
     {
-        "name": "Queen",
-        "yearDebut": 1973,
-        "sizeGroup": 4,
-        "rank": 32,
+        "name": "Jason Derulo",
+        "yearDebut": 2006,
+        "sizeGroup": 1,
+        "rank": 72,
+        "gender": "Male",
+        "genre": "R&B",
+        "nationality": "us"
+    },
+    {
+        "name": "Myke Towers",
+        "yearDebut": 2015,
+        "sizeGroup": 1,
+        "rank": 73,
+        "gender": "Male",
+        "genre": "Reggaeton",
+        "nationality": "pr"
+    },
+    {
+        "name": "Demi Lovato",
+        "yearDebut": 2008,
+        "sizeGroup": 1,
+        "rank": 74,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "us"
+    },
+    {
+        "name": "Pitbull",
+        "yearDebut": 2001,
+        "sizeGroup": 1,
+        "rank": 75,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Mac Miller",
+        "yearDebut": 2010,
+        "sizeGroup": 1,
+        "rank": 76,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Pop Smoke",
+        "yearDebut": 2018,
+        "sizeGroup": 1,
+        "rank": 77,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Metallica",
+        "yearDebut": 1982,
+        "sizeGroup": 5,
+        "rank": 78,
         "gender": "Male",
         "genre": "Rock",
-        "nationality": "uk"
+        "nationality": "us"
+    },
+    {
+        "name": "Tyler, The Creator",
+        "yearDebut": 2009,
+        "sizeGroup": 1,
+        "rank": 79,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "DJ Snake",
+        "yearDebut": 2013,
+        "sizeGroup": 1,
+        "rank": 80,
+        "gender": "Male",
+        "genre": "Electronic",
+        "nationality": "fr"
+    },
+    {
+        "name": "Lil Peep",
+        "yearDebut": 2015,
+        "sizeGroup": 1,
+        "rank": 81,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Elton John",
+        "yearDebut": 1964,
+        "sizeGroup": 1,
+        "rank": 82,
+        "gender": "Male",
+        "genre": "Pop",
+        "nationality": "gb"
+    },
+    {
+        "name": "Morgan Wallen",
+        "yearDebut": 2015,
+        "sizeGroup": 1,
+        "rank": 83,
+        "gender": "Male",
+        "genre": "Country",
+        "nationality": "us"
+    },
+    {
+        "name": "DaBaby",
+        "yearDebut": 2015,
+        "sizeGroup": 1,
+        "rank": 84,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "$uicideboy$",
+        "yearDebut": 2014,
+        "sizeGroup": 2,
+        "rank": 85,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "BLACKPINK",
+        "yearDebut": 2016,
+        "sizeGroup": 4,
+        "rank": 86,
+        "gender": "Female",
+        "genre": "K-Pop",
+        "nationality": "kr"
+    },
+    {
+        "name": "Lil Nas X",
+        "yearDebut": 2018,
+        "sizeGroup": 1,
+        "rank": 87,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Lil Wayne",
+        "yearDebut": 1996,
+        "sizeGroup": 1,
+        "rank": 88,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Alan Walker",
+        "yearDebut": 2012,
+        "sizeGroup": 1,
+        "rank": 89,
+        "gender": "Male",
+        "genre": "Electronic",
+        "nationality": "no"
+    },
+    {
+        "name": "Tiësto",
+        "yearDebut": 1994,
+        "sizeGroup": 1,
+        "rank": 90,
+        "gender": "Male",
+        "genre": "Electronic",
+        "nationality": "nl"
+    },
+    {
+        "name": "Sech",
+        "yearDebut": 2015,
+        "sizeGroup": 1,
+        "rank": 91,
+        "gender": "Male",
+        "genre": "Reggaeton",
+        "nationality": "pa"
+    },
+    {
+        "name": "Feid",
+        "yearDebut": 2014,
+        "sizeGroup": 1,
+        "rank": 92,
+        "gender": "Male",
+        "genre": "Reggaeton",
+        "nationality": "co"
+    },
+    {
+        "name": "Young Thug",
+        "yearDebut": 2010,
+        "sizeGroup": 1,
+        "rank": 93,
+        "gender": "Male",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Martin Garrix",
+        "yearDebut": 2012,
+        "sizeGroup": 1,
+        "rank": 94,
+        "gender": "Male",
+        "genre": "Electronic",
+        "nationality": "nl"
+    },
+    {
+        "name": "Ellie Goulding",
+        "yearDebut": 2009,
+        "sizeGroup": 1,
+        "rank": 95,
+        "gender": "Female",
+        "genre": "Pop",
+        "nationality": "gb"
+    },
+    {
+        "name": "Cardi B",
+        "yearDebut": 2015,
+        "sizeGroup": 1,
+        "rank": 96,
+        "gender": "Female",
+        "genre": "Hip Hop",
+        "nationality": "us"
+    },
+    {
+        "name": "Frank Ocean",
+        "yearDebut": 2010,
+        "sizeGroup": 1,
+        "rank": 97,
+        "gender": "Male",
+        "genre": "R&B",
+        "nationality": "us"
+    },
+    {
+        "name": "Panic! At The Disco",
+        "yearDebut": 2004,
+        "sizeGroup": 1,
+        "rank": 98,
+        "gender": "Male",
+        "genre": "Rock",
+        "nationality": "us"
+    },
+    {
+        "name": "Charlie Puth",
+        "yearDebut": 2010,
+        "sizeGroup": 1,
+        "rank": 99,
+        "gender": "Male",
+        "genre": "Pop",
+        "nationality": "us"
+    },
+    {
+        "name": "AC/DC",
+        "yearDebut": 1973,
+        "sizeGroup": 4,
+        "rank": 100,
+        "gender": "Male",
+        "genre": "Rock",
+        "nationality": "au"
     }
 ]
