@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Guess the artist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Guess the Artist</title>
 </head>
 <body>
     <div class="container">
-        <h1 class="mt-5">Guess the artist</h1>
+        <h1 class="mt-5">Guess the Artist 
+            <a href="#" data-toggle="modal" data-target="#howToPlayModal">
+                <i class="fas fa-question-circle ml-2" style="font-size: 20px;"></i>
+            </a>
+        </h1>
         <div class="mt-4">
             <h3 id="numAttempts">Attempts:</h3>
             <div class="input-group">
@@ -21,6 +26,29 @@
         </div>
         <div id="suggestionList"></div>
         <div class="row mt-4" id="artistContainer">
+        </div>
+    </div>
+
+    <!-- Modal per le istruzioni su come giocare -->
+    <div class="modal fade" id="howToPlayModal" tabindex="-1" role="dialog" aria-labelledby="howToPlayModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="howToPlayModalLabel">How to Play</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Guess the artist by entering their name in the input field and clicking the "Search" button.</p>
+                    <p>You have a maximum of 10 attempts to guess the artist correctly.</p>
+                    <p>If you guess the artist correctly, you win!</p>
+                    <p>Click the question mark icon next to the title for these instructions.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
 
