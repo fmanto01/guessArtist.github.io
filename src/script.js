@@ -3,13 +3,14 @@ const btnSearch = document.getElementById('btnSearch');
 let attempts = 0;
 let chosenArtist;
 let artistContainer = document.getElementById('artistContainer');
+let addedArtists = new Set();
 
 window.onload = loadJSON;
 
 async function loadJSON() {
     const response = await fetch('./artists/artists.json');
     artists = await response.json();
-    console.log(artists); 
+    console.log(artists);
 
     document.getElementById('numAttempts').innerHTML = "Attempts: " + attempts;
     chosenArtist = getRandomArtist();
@@ -37,6 +38,11 @@ searchInput.addEventListener("input", function () {
     suggerimenti.forEach(suggerimento => {
         const suggerimentoElement = document.createElement("div");
         suggerimentoElement.textContent = suggerimento.name;
+        suggerimentoElement.addEventListener('click', function() {
+            document.getElementById('artistName').value = suggerimento.name;
+            suggestionList.innerHTML = ""; // Svuota la lista dei suggerimenti quando si seleziona un nome.
+            searchForArtist(suggerimento.name); // Chiamare automaticamente la funzione searchForArtist quando viene selezionato un nome.
+        });
         suggestionList.appendChild(suggerimentoElement);
     });
 });
@@ -58,12 +64,18 @@ function searchForArtist(name) {
         return;
     }
 
+    if (addedArtists.has(name)) {
+        alert("You already guessed this artist.");
+        return;
+    }
+
     for (let i = 0; i < artists.length; i++) {
         if (name === artists[i].name) {
             attempts++;
             document.getElementById('numAttempts').innerHTML = "Attempts: " + attempts;
 
             printArtistData(artists[i]);
+            addedArtists.add(name); // Aggiungi l'artista all'insieme dei nomi già inseriti.
         }
     }
 
@@ -81,6 +93,7 @@ function printArtistData(artist) {
     let artistCardInner = `
         <div class="card">
             <div class="card-body">
+                <p class="card-text">${attempts}° attempt</p>
                 <h5 class="card-title">${artist.name}</h5>
                 <p class="card-text">Year of debut: ${artist.yearDebut}${getSimilarity(artist.yearDebut, "yearDebut")}</p>
                 <p class="card-text">Group size: ${artist.sizeGroup}${getSimilarity(artist.sizeGroup, "sizeGroup")}</p>
@@ -93,7 +106,7 @@ function printArtistData(artist) {
     `;
 
     artistCard.innerHTML = artistCardInner;
-    artistContainer.appendChild(artistCard);
+    artistContainer.prepend(artistCard); // Usa 'prepend' per aggiungere il nuovo artista in cima alla lista.
 }
 
 function getRandomArtist() {
