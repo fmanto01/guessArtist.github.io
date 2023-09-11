@@ -161,3 +161,7 @@ function getFlag(nationality) {
     let flag = '<i class="flag-icon flag-icon-' + nationality + '"></i>';
     return flag;
 }
+
+<a href="#" data-toggle="modal" data-target="#howToPlayModal">
+    <i class="fas fa-question-circle ml-2" style="font-size: 20px;"></i>
+</a>
